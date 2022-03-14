@@ -28,7 +28,6 @@ var estatistica = (function(){
         return iMaior;
     };
 
-
     var getMenorElemento = () => {
         let aElementos = getElementos();
         iMenor = getFirstFromArray(aElementos);
