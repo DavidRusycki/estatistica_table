@@ -10,7 +10,7 @@ var estatistica = (function(){
         iValue = (getMaiorElemento() - getMenorElemento());
         iValue = iValue/getSturges(getTotalElementos());
 
-        return Math.round(iValue);
+        return Math.ceil(iValue);
     };
 
     var getMaiorElemento = () => {
@@ -105,7 +105,7 @@ var estatistica = (function(){
         {
             xResult = 9;
         }
-        return xResult;9
+        return xResult;
     }
 
     var getTableSturges = () => {
